@@ -18,14 +18,13 @@ Output :
 Given by the arduino at the specified ports, this output is then given to the 4 motors in the form of LOW/HIGH signal.
 
 Diagrammatic representation :
-                                              ------------------------------
-                                              ------------------------------
-                                              || [down]M2A         M1A[up] ||
-                                              ||                           ||
-                                              ||                           ||
-                                              ||                           ||
-                                              || [up]M2B         M1B[down] ||
-                                              ||                           ||
-                                              -------------------------------
-                                              -------------------------------
- 
+------------------------------
+------------------------------
+|| [down]M2A         M1A[up] ||
+||                           ||
+||                           ||
+||                           ||
+|| [up]M2B         M1B[down] ||
+||                           ||
+-------------------------------
+------------------------------- 
